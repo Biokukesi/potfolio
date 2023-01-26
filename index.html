@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Kundananji Siame || Junior Software Developer🚀</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Use container to make the content in the center of the page -->
+    <div class="container">
+      <header id="header">
+        <div id="personal-info">
+          <div class="avatar-container">
+            <img src="img/download.png" alt="Tan Gravam" width="100" height="100" />
+          </div>
+          <div class="header-info-container">
+            <h1>Kundananji Siame </h1>
+            <p>Junior Software Developer🚀
+              <br>
+            </p>
+                      </div>
+          <div class="header-icons">
+            <div class="header-icons-row first-icons">
+              <div class="header-icon-4"></div>
+              <div class="header-icon-2"></div>
+              <div class="header-icon-3"></div>
+            </div>
+            <div class="header-icons-row">
+              <div class="header-icon-7"></div>
+              <div class="header-icon-10"></div>
+              <div class="header-icon-12"></div>
+            </div>
+          </div>
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li class="active-bg" id="menu-item-1">
+              <button id="bio-btn" onClick="btnClick('bio')" class="blue-line">
+                <img src="https://assets.codepen.io/9277864/about-me.svg" alt="Bio" width="40" height="40" />
+                <p>Bio</p>
+              </button>
+            </li>
+            <li id="menu-item-2">
+              <button id="experience-btn" onClick="btnClick('experience')">
+                <img src="https://assets.codepen.io/9277864/office-work.svg" alt="Experience" width="40" height="40" />
+                <p>Academics</p>
+              </button>
+            </li>
+            <li id="menu-item-3">
+              <button id="portfolio-btn" onClick="btnClick('portfolio')">
+                <img src="https://assets.codepen.io/9277864/page.svg" alt="Portfolio" width="40" height="40" />
+                <p>Portfolio</p>
+              </button>
+            </li>
+            <li id="menu-item-4">
+              <button id="contact-btn" onClick="btnClick('contact')">
+                <img src="https://assets.codepen.io/9277864/contact.svg" alt="Contact" width="40" height="40" />
+                <p>Contact</p>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="bio">
+          <h2>Bio</h2>
+          <p><span class="emoji">🙋‍♂️</span> Hey,</p>
+          <p>My name is Kundananji Kenneth Siame(Code name Biokukesi on Github and other plartforms😂). I love building things, especially data driven structures that run on computers. And i am just generally enthusiastic about arts and crafts. I am currently a student pursuing a bachelors degree in Computer Science at the Copperbelt university in Zambia. I am looking to collaborate on any web or mobile app development projects despite not having any industrial experience. I am mostly skilled in front-end development using [HTML,CSS,SCSS,JAVASCRIPT, Vue framework] and i've also done some backend using Node.js with it's express framework. I love building sofwtare because of how dynamic the field is, which is why i am down for any challenges.</p>
+         
+          <p>Stay in touch;</p>
+
+          <div class="social-media">
+            <div><a href="https://web.facebook.com/kennyth.simsi" target="_blank"><img src="https://assets.codepen.io/9277864/social-media-facebook.svg" alt="Facebook" width="28" height="28" /></a></div>
+            <div><a href="https://twitter.com/Biokukesi" target="_blank"><img src="https://assets.codepen.io/9277864/social-media-twitter.svg" alt="Twitter" width="28" height="28" /></a></div>
+            <div><a href="https://www.instagram.com/siamekundananji/" target="_blank"><img src="https://assets.codepen.io/9277864/social-instagram-1.svg" alt="Instagram" width="28" height="28" /></a></div>
+            <div><a href="https://www.linkedin.com/in/kundananji-siame-97a00b201/" target="_blank"><img src="https://assets.codepen.io/9277864/linkedin.svg" alt="Linkedin" width="28" height="28" /></a></div>
+   
+          </div>
+        </section>
+        <section id="experience" class="display-none">
+          <h2>Academics</h2>
+          <div class="history">
+            <div data-year="2020">
+              <h3>University- <span>Bachelor's degree in Computer Science</span></h3>
+              <p>The Copperblt university</p>
+            </div>
+            <div data-year="2020">
+              <h3>Web Development - <span>Web dev certificate</span></h3>
+              <p>The App Brewery</p>
+            </div>
+            <div data-year="2019">
+              <h3>Grade 12 - <span>High School Certificate</span></h3>
+              <p>Masala Secondary</p>
+            </div>
+            <div data-year="2015">
+              <h3>Grade 9 - <span> Grade 9 certificate</span></h3>
+              <p>Masala Secodary</p>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="display-none">
+          <h2>Portfolio</h2>
+          <div class="grid">
+            <div class="grid-item">
+              <a href="https://biokukesi.github.io/Quote-Generator/" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/schedule-milestone-2.svg" alt="Project 1" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Quote Generator</h3>
+                  <p>This is a simple web app built using HTML, CSS and Vanilla JavaScript. It generates different quotes from an array of text.</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="https://biokukesi.github.io/Infinite-Scroll/" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/designer-desk-1.svg" alt="Project 2" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Infinite Scroll</h3>
+                  <p>Have you ever wondered how most social media plartforms' content never runs out?, as if everything is in an infinite loop. Well i took the time to explore that aspect and came up with this web app that's connected to a RESTFUL api to fetch images. </p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://biokukesi.github.io/Animated-navBar/" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/project-timeline-2.svg" alt="Project 3" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Animated navigation Bar</h3>
+                  <p>I believe this one is self explanatory😂. Anyways, click on it to check it out</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://biokukesi.github.io/Music-player/" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/business-presentation-1.svg" alt="Project 4" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Music Player</h3>
+                  <p>Oh, did i mention that i am a huge fun of Rock music?.....I took time to come up with a user interface for a simple music player and added some of my favorite songs to it and worked with all the buttons on the user interface to make them respond to my requests using Vanilla JS.</p>
+                </div>
+              </a>
+            </div>
+
+            
+          </div>
+        </section>
+        <section id="contact" class="display-none">
+          <h2>Contact</h2>
+          <div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/location-user.svg" alt="Address Icon" width="25" height="25" /></p>
+              <address>Ndola, Copperbelt Province, Zambia</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/envelope-letter.svg" alt="Email Icon" width="25" height="25" /></p>
+              <address>kennethsiame2002@gmail.com</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/mobile-phone-1.svg" alt="Phone Icon" width="25" height="25" /></p>
+              <address>260962029134</address>
+            </div>
+
+            <div class="follow-btn">
+              <a href="https://twitter.com/Biokukesi" target="_blank">Follow Me on Twitter!</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike1" class="bike1" />
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike2" class="bike2" />
+    </div>
+  </div>
+  <div class="codepen-footer">
+    <small>Created by <a href="https://twitter.com/intent/follow?screen_name=TanGravam" target="_top">@Kundananji Siame 2023</a></small>
+  </div>
+    <script src="Script/Script.js"></script>
+</body>
+
+</html>
